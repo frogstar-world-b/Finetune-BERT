@@ -1,8 +1,8 @@
 # Finetune-BERT
 
-The notebook is a comprehensive example of fine-tuning a BERT model for a specific NLP task. 
+We provide a comprehensive example of fine-tuning a BERT model for a specific NLP task. The code includes data preprocessing, model configuration, training, and evaluation steps, in addition to a discussion of hyperparameters and optimization algorithm choices. 
 
-Here, the task is binary sentiment classification, and the data are [50,000 IMDB movie reviews and their sentiment labels](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/) ('positive' or 'negative'). The code includes data preprocessing, model configuration, training, and evaluation steps.
+Here, the task is binary sentiment classification, and the data are [50,000 IMDB movie reviews and their sentiment labels](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/) ('positive' or 'negative'). 
 
 [BERT](https://arxiv.org/abs/1810.04805) (Bidirectional Encoder Representations from Transformers) is a pre-trained natural language processing (NLP) model developed by Google. It belongs to a class of models known as transformer-based models. BERT has had a significant impact on the field of NLP due to its ability to achieve state-of-the-art performance on a wide range of NLP tasks.
 
@@ -15,3 +15,16 @@ Here, the task is binary sentiment classification, and the data are [50,000 IMDB
 3. **Bidirectional Context**: BERT considers both left and right context when processing words. Traditional methods, like bag-of-words approaches, ignore word order and context. BERT's bidirectional approach is crucial for understanding sentiment, as the sentiment of a sentence can depend on the ordering of words and phrases.
 
 4. **Automatic Feature Extraction**: BERT can extract informative features from text data automatically. It identifies relevant patterns and relationships between words, which can be crucial for sentiment prediction. This relieves you from the need to hand-craft features or rely on external sentiment lexicons.
+
+## Notbooks
+- [Finetune_BERT_for_Sentiment_Classification_maxlength128.ipynb](Finetune_BERT_for_Sentiment_Classification_maxlength128.ipynb)
+  - Batch size (batch_size) = 32
+  - Learning rate (lr) = 2e-5
+  - Number of epochs (epochs) = 4
+  - Maximum Sequence Length (max_length) = 128
+
+- [Finetune_BERT_for_Sentiment_Classification_maxlength256.ipynb](Finetune_BERT_for_Sentiment_Classification_maxlength256.ipynb)
+  - Batch size (batch_size) = 32
+  - Learning rate (lr) = 2e-5
+  - Number of epochs (epochs) = 4
+  - Maximum Sequence Length (max_length) = 256
