@@ -18,13 +18,13 @@ Here, the task is binary sentiment classification, and the data are [50,000 IMDB
 
 ## Notbooks
 - [Finetune_BERT_for_Sentiment_Classification_maxlength128.ipynb](Finetune_BERT_for_Sentiment_Classification_maxlength128.ipynb)
-  - Batch size (batch_size) = 32
-  - Learning rate (lr) = 2e-5
-  - Number of epochs (epochs) = 4
-  - Maximum Sequence Length (max_length) = 128
+  - Batch size (`batch_size`) = 32
+  - Learning rate (`lr`) = 2e-5
+  - Number of epochs (`epochs`) = 4
+  - Maximum Sequence Length (`max_length`) = 128
 
 - [Finetune_BERT_for_Sentiment_Classification_maxlength256.ipynb](Finetune_BERT_for_Sentiment_Classification_maxlength256.ipynb)
-  - Batch size (batch_size) = 32
-  - Learning rate (lr) = 2e-5
-  - Number of epochs (epochs) = 4
-  - Maximum Sequence Length (max_length) = 256
+  - Batch size (`batch_size`) = 32
+  - Learning rate (`lr`) = 2e-5
+  - Number of epochs (`epochs`) = 4
+  - Maximum Sequence Length (`max_length`) = 256
